@@ -82,7 +82,7 @@ public class Basket {
       return null;
     }
 
-  public ArrayList<Item> bogofList = bogofItems();
+    ArrayList<Item> bogofList = bogofItems();
     Item minValueItem = bogofList.get(0);
     for (Item item : bogofList) {
       if (item.getPrice() < minValueItem.getPrice()) {
